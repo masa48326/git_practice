@@ -1,3 +1,4 @@
+# FizzBuzz変換 100まで
 def fizzbuzz_convert(number):
     if number % 15 == 0:
         return 'FizzBuzz'
@@ -8,4 +9,5 @@ def fizzbuzz_convert(number):
     return number
 
 
-assert fizzbuzz_convert(3) = 'Fizz'
+for number in range(1, 101):
+    print(fizzbuzz_convert(number))
